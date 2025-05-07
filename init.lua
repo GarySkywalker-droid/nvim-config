@@ -810,7 +810,7 @@ require('lazy').setup({
       ---@diagnostic disable-next-line: missing-fields
       require('rose-pine').setup {
         styles = {
-          transparency = true,
+          transparency = false,
         },
       }
       vim.cmd 'colorscheme rose-pine'
